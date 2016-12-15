@@ -1,4 +1,125 @@
-*{
+/*MAIN SETTINGS---------------------------------------*/
+* {
     margin: 0;
     padding: 0;
+}
+
+body {
+    background: url('../img/bg.png');
+    color: #343434;
+    font: normal 14px sans-serif;
+}
+
+.wrap {
+    background: #fff;
+    box-shadow: 0 10px 25px #dbdbdb;
+    margin: auto;
+    padding: 50px;
+    width: 960px;
+
+}
+/*HEADER---------------------------------------*/
+.logo {
+    margin: 0 0 40px;
+}
+
+.menu {
+    background: linear-gradient(#5d5d5d,#454444);
+    font:normal 17px sans-serif, Verdana;
+    margin-bottom: 40px;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding: 12px 24px 12px 0;
+}
+
+.menu a {
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    text-shadow: 1px 1px #282828;
+}
+
+.menu a:hover {
+    background: #343434;
+    border-left: 1px solid #838383;
+    border-right: 1px solid #838383;
+    margin: 0 -1px;
+}
+/*SIDEBAR MENU---------------------------------------*/
+.left-sidebar {
+    float: left;
+    font: 13px normal sans-serif,Verdana;
+}
+
+.left-sidebar ul {
+    width: 240px;
+    border: 1px solid #c8c8c8;
+    list-style: none;
+}
+
+.left-sidebar a {
+    display: block;
+    padding: 12px 24px;
+    color: #656363;
+    text-decoration: none;
+}
+
+.left-sidebar li {
+    border-bottom: 1px solid #c8c8c8;
+}
+
+.left-sidebar li:last-child {
+    border-bottom: 0;
+}
+
+.left-sidebar li:hover {
+    background: #f9f9f9;
+    padding-left: 10px;
+}
+
+.left-sidebar a:hover {
+    color:#000;
+}
+/*MAIN CONTENT---------------------------------------*/
+section {
+    float: right;
+    width: 680px;
+}
+
+.img-wrap {
+    border: 1px solid #c8c8c8;
+    margin-bottom: 40px;
+    padding: 50px 0;
+    text-align: center;
+}
+
+p {
+    margin: 0 25px;
+}
+/*FOOTER---------------------------------------*/
+.footer {
+margin-top: 50px;
+}
+
+.footer ul{
+    background: #e1e1e1;
+    list-style: none;
+    padding: 14px 0;
+}
+
+.footer li {
+    display: inline;
+    margin-right: 38px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #343434;
+    padding: 13px 26px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
 }
