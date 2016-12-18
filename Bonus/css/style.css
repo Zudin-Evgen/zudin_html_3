@@ -9,7 +9,7 @@ body {
     background-size: 100%;
     font: normal 14px Tahoma;
     color: #fff;
-    padding:80px 140px 40px;
+    padding:110px 140px 40px;
 }
 
 .wrap {
@@ -17,18 +17,32 @@ body {
     margin: auto;
 }
 /*---------------------------------HEADER---------------------------------------------*/
-header {
+.header {
     margin-bottom: 15px;
 }
 
+.clear-fix:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
 .logo-wrap {
-    float: left;
     text-align: center;
     width: 290px;
+    float: left;
 }
 
 .logo {
     width: 100%;
+}
+
+.palm {
+    float: right;
+    position: relative;
+    display: block;
+    top: 80px;
+    margin-top: -150px;
 }
 
 .contacts {
@@ -48,8 +62,10 @@ header {
 .country img{
     width: 100%;
 }
+
+
 /*---------------------------------FOOTER---------------------------------------------*/
-footer {
+.footer {
     margin-top: 300px;
     text-align: center;
 }
