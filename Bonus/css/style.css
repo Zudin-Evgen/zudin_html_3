@@ -1,0 +1,55 @@
+/*---------------------------------MAIN SETTINGS---------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('../img/bg.png') no-repeat;
+    background-size: 100%;
+    font: normal 14px Tahoma;
+    color: #fff;
+    padding:80px 140px 40px;
+}
+
+.wrap {
+    width: 890px;
+    margin: auto;
+}
+/*---------------------------------HEADER---------------------------------------------*/
+header {
+    margin-bottom: 15px;
+}
+
+.logo-wrap {
+    float: left;
+    text-align: center;
+    width: 290px;
+}
+
+.logo {
+    width: 100%;
+}
+
+.contacts {
+    width: 180px;
+    float: right;
+    margin-top: 7px;
+}
+/*---------------------------------CONTENT---------------------------------------------*/
+.country {
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+    margin-bottom: 50px;
+    font-size: 17px;
+}
+
+.country img{
+    width: 100%;
+}
+/*---------------------------------FOOTER---------------------------------------------*/
+footer {
+    margin-top: 300px;
+    text-align: center;
+}
